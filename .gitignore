@@ -1,0 +1,36 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.idea/.name
+.idea/copyright/
+.idea/deployment.xml
+.idea/inspectionProfiles/
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/
+.idea/smartfox_info.xml
+out/production/GoogleTranslation/META-INF/
+out/production/GoogleTranslation/icons/
+out/production/XLPlus/META-INF/
+src/com/entity/
+src/com/xl/deloy/
+src/com/xl/deploy/
+src/com/xl/gui/
