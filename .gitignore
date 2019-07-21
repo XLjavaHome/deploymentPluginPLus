@@ -34,3 +34,5 @@ src/com/entity/
 src/com/xl/deloy/
 src/com/xl/deploy/
 src/com/xl/gui/
+.idea/workspace.xml
+out/production/deploymentPlugin/META-INF/
