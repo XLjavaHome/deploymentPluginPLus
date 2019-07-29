@@ -36,3 +36,8 @@ src/com/xl/deploy/
 src/com/xl/gui/
 .idea/workspace.xml
 out/production/deploymentPlugin/META-INF/
+out/production/deploymentPlugin/generated/
+src/com/xl/plugin/xlplugin/entity/
+src/com/xl/plugin/xlplugin/gui/
+src/com/xl/plugin/xlplugin/impl/
+src/com/xl/plugin/xlplugin/service/

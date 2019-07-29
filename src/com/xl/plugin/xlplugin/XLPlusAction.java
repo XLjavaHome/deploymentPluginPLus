@@ -2,7 +2,7 @@ package com.xl.plugin.xlplugin;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
-import com.xl.gui.DeployForm;
+import com.xl.plugin.xlplugin.gui.DeployForm;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -17,6 +17,8 @@ import org.jetbrains.annotations.NotNull;
 public class XLPlusAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent anActionEvent) {
+        String basePath = anActionEvent.getProject().getBasePath();
+        System.out.println(basePath);
         DeployForm dialog = new DeployForm();
         dialog.pack();
         com.xl.util.GUIUtil.makeCenter(dialog);
